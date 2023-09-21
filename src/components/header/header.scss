@@ -1,0 +1,14 @@
+.header {
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__wrappSubscribe {
+    display: flex;
+    align-items: center;
+  }
+  &__dropDownWrapp {
+    display: flex;
+  }
+}
