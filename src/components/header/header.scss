@@ -1,14 +1,119 @@
 .header {
   &__actions {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #d9dadb;
+    // height: 135px;
+  }
+  &__dropDownWrapp {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    min-width: 114px;
+  }
+  &__titleDropDawn {
+    margin-left: 15px;
   }
   &__wrappSubscribe {
     display: flex;
     align-items: center;
+    min-width: 195px;
+    margin-right: 25px;
   }
-  &__dropDownWrapp {
+  &__subscribeTitle {
+    width: 119px;
+    color: var(--base-grey-100, #262d33);
+    font-size: 12px;
+    font-weight: 400;
+  }
+  &__subscribeSubtitle {
+    color: var(--base-grey-50, #939699);
+    font-size: 12px;
+    font-weight: 400;
+  }
+  &__subscribeImg {
+    margin-right: 13px;
+  }
+  &__wrappSearch {
     display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 25px;
+    border-left: 1px solid #d9dadb;
+    height: 50px;
+  }
+  &__search {
+    width: 100%;
+    padding: 0 10px;
+    padding-left: 10px;
+  }
+  &__wrappSignIn {
+    display: flex;
+  }
+  &__signImg {
+    margin-right: 10px;
+  }
+  &__signIn {
+    width: 42px;
+    color: #4b5157;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  //   _____________________________________
+
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+  &__imgLiberty {
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 15px;
+  }
+  &__infoTitle {
+    width: 203px;
+    color: #4b5157;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__imgLogo {
+    margin-right: 186px;
+    margin-left: 130px;
+  }
+  &__date {
+    min-width: 195px;
+    color: #4b5157;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__imgSun {
+    margin-left: 23px;
+    margin-right: 10px;
+  }
+  &__weather {
+    color: #4b5157;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  //   _____________________________________
+
+  &__wrappMenu {
+    background-color: #262d33;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    color: var(--base-white, #fff);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
   }
 }
