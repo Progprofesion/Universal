@@ -1,5 +1,6 @@
 import Header from "../header/Header";
 import Interesting from "../interesting/Interesting";
+import Interesting2 from "../interesting/Interesting2";
 import "./app.scss";
 
 const app = () => {
@@ -8,6 +9,7 @@ const app = () => {
       <div className="app__bg"></div>
       <Header />
       <Interesting />
+      <Interesting2 />
     </main>
   );
 };

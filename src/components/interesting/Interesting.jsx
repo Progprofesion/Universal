@@ -12,7 +12,7 @@ import "./interesting.scss";
 
 const Interesting = () => {
   return (
-    <div className="interesting">
+    <section className="interesting">
       <div className="container">
         <div className="interesting__wrappItem">
           <div className="interesting__item">
@@ -133,7 +133,7 @@ const Interesting = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
