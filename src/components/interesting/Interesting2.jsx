@@ -2,7 +2,11 @@ import car from "../../assets/img/car.png";
 import authorCar from "../../assets/icon/authorCar.svg";
 import comment from "../../assets/icon/comment.svg";
 import cat from "../../assets/img/cat.png";
+import avatarBig from "../../assets/icon/avatarBig.svg";
+import heart from "../../assets/icon/heart.svg";
+
 import "./interesting2.scss";
+
 const Interesting2 = () => {
   return (
     <section style={{ marginTop: "30px" }} className="interesting2 container">
@@ -35,29 +39,35 @@ const Interesting2 = () => {
         </div>
       </div>
       <div className="interesting2__item3">
-        <div className="interesting2__popular">Popular</div>
-        <h3 className="interesting2__titlePopular">Art & Design</h3>
-        <h4 className="interesting2__subtitle">
+        <div className="interesting2__item3__popular">Popular</div>
+        <h3 className="interesting2__item3__titlePopular">Art & Design</h3>
+        <h4 className="interesting2__item3__subtitlePopular">
           Invisible ink: the weird world of tattoo removal – in pictures
         </h4>
         <div className="interesting2__item3__wrappAuthor">
-          <img src="" alt="avatar" className="interesting2__item3__avatar" />
+          <img
+            src={avatarBig}
+            alt="avatar"
+            className="interesting2__item3__avatar"
+          />
           <div className="interesting2__item3__wrappName">
             <p className="interesting2__item3__name">By Sarah Jenkins</p>
             <div className="interesting2__item3__wrappData">
-              <p className="interesting2__item3__date">Sept 26</p>
+              <p className="interesting2__item3__date fs-12whiteOpacity">
+                Sept 26
+              </p>
               <img
-                src=""
+                src={comment}
                 alt="message"
                 className="interesting2__item3__imgMessage"
               />
-              <p>16</p>
+              <p className="fs-12whiteOpacity">16</p>
               <img
-                src=""
+                src={heart}
                 alt="heart"
                 className="interesting2__item3__imgHeart"
               />
-              <p>832</p>
+              <p className="fs-12whiteOpacity">832</p>
             </div>
           </div>
         </div>

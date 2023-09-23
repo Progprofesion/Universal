@@ -5,8 +5,6 @@
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   margin-top: 30px;
-  &__title {
-  }
 
   &__item1 {
     grid-area: 1 / 1 / 3 / 3;
@@ -68,6 +66,71 @@
     background-color: aliceblue;
     background: url("../../assets//img/bgInteresting.png");
     border-radius: 15px;
+    position: relative;
+    padding: 0 47px 25px 25px;
+    max-width: 263px;
+    max-height: 370px;
+    &__popular {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 66px;
+      height: 25px;
+      border-radius: 3px;
+      background: #3dc47e;
+      color: #fff;
+      font-size: 12px;
+    }
+    &__titlePopular {
+      margin-top: 160px;
+      color: #e7d9ff;
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    &__subtitlePopular {
+      max-width: 203px;
+      margin-top: 10px;
+      color: #fff;
+      font-family: Roboto Slab;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    &__wrappAuthor {
+      display: flex;
+      margin-top: 15px;
+      align-items: center;
+    }
+    &__wrappData {
+      display: flex;
+    }
+    &__wrappName {
+      margin-left: 10px;
+    }
+    &__name {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      opacity: 0.85;
+    }
+    &__imgMessage {
+      margin-left: 10px;
+      margin-right: 5px;
+      opacity: 0.4;
+    }
+    &__imgHeart {
+      margin-left: 10px;
+      margin-right: 5px;
+    }
   }
   &__item4 {
     grid-area: 3 / 1 / 5 / 2;
@@ -112,6 +175,8 @@
   &__item9 {
     grid-area: 1 / 4 / 2 / 5;
     background-color: aliceblue;
+    width: 263px;
+    height: 59px;
   }
   &__item10 {
     grid-area: 2 / 4 / 3 / 5;
