@@ -6,7 +6,7 @@ const BigBloom = () => {
       <h3 className="bigBloom__title fs-40whiteCenter">
         The Big Bloom or «How Flowering <br /> Plants Changed the World»
       </h3>
-      <ButtonReadMore style={{ margin: "25px auto" }} />
+      <ButtonReadMore style={{ margin: "25px auto 55px" }} />
     </section>
   );
 };

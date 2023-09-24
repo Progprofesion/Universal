@@ -5,6 +5,8 @@ import cat from "../../assets/img/cat.png";
 import avatarBig from "../../assets/icon/avatarBig.svg";
 import heart from "../../assets/icon/heart.svg";
 import authorColums1 from "../../assets/icon/authorColumns1.svg";
+import authorColums2 from "../../assets/icon/authorColumns2.svg";
+import authorColums3 from "../../assets/icon/authorColumns3.svg";
 
 import "./interesting2.scss";
 
@@ -144,37 +146,39 @@ const Interesting2 = () => {
           </div>
           <div className="interesting2__wrappColumns__column">
             <div className="interesting2__wrappColumns__subtitle fs-20White">
-              Architecture is the thoughtful making of space
+              The details are not the details. They make the design.
             </div>
             <div className="interesting2__wrappColumns__wrappAuthor">
               <img
-                src={authorColums1}
+                src={authorColums2}
                 alt="author"
                 className="interesting2__wrappColums__imgAuthor"
               />
               <div className="interesting2__wrappColumns__wrappName">
                 <p className="interesting2__wrappColums__name">
-                  David Williams
+                  Alexandra Green
                 </p>
-                <p className="interesting2__wrappColums__post">Architect</p>
+                <p className="interesting2__wrappColums__post">
+                  Interior designer
+                </p>
               </div>
             </div>
           </div>
           <div className="interesting2__wrappColumns__column">
             <div className="interesting2__wrappColumns__subtitle fs-20White">
-              Architecture is the thoughtful making of space
+              Live life to the fullest, and focus on the positive
             </div>
             <div className="interesting2__wrappColumns__wrappAuthor">
               <img
-                src={authorColums1}
+                src={authorColums3}
                 alt="author"
                 className="interesting2__wrappColums__imgAuthor"
               />
               <div className="interesting2__wrappColumns__wrappName">
                 <p className="interesting2__wrappColums__name">
-                  David Williams
+                  Olivia Thompson
                 </p>
-                <p className="interesting2__wrappColums__post">Architect</p>
+                <p className="interesting2__wrappColums__post">Coacher</p>
               </div>
             </div>
           </div>
