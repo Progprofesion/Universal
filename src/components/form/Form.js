@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 
 import "./form.scss";
 
-const Form = ({ setEmail, setName }) => {
+const Form = () => {
   const {
     register,
     handleSubmit,
@@ -22,7 +22,6 @@ ____________________
 Имя: ${e.name}
 Почта: ${e.email} 
           `);
-      console.log(e);
       reset();
     } else {
       setErrorAuth(true);
@@ -39,7 +38,6 @@ ____________________
         })}
         type="text"
         placeholder="Имя"
-        onChange={(e) => setName(e.target.value)}
       />
       {errors.login ? (
         <p className="form__form-errorMessage">{errors.login.message}</p>
@@ -52,7 +50,6 @@ ____________________
         })}
         type="text"
         placeholder="Почта"
-        onChange={(e) => setEmail(e.target.value)}
       />
       {errors.password ? (
         <p className="form__errorMessage">{errors.password.message}</p>

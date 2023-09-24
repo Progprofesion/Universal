@@ -11,9 +11,6 @@ import Form from "../form/Form";
 import "./app.scss";
 
 const App = () => {
-  const [errorAuth, setErrorAuth] = useState(false);
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [modalActive, setModalActive] = useState("");
   return (
     <main className="app">
@@ -26,7 +23,7 @@ const App = () => {
       <Hot />
       <Footer setModalActive={setModalActive} />
       <Modal modalActive={modalActive} setModalActive={setModalActive}>
-        <Form setEmail={setEmail} setName={setName} />
+        <Form />
       </Modal>
     </main>
   );
