@@ -42,7 +42,6 @@ const Interesting = () => {
         </div>
         <div className="interesting__recommended">
           <div className="interesting__wrappMainImg">
-            <img src={nature} alt="nature" className="interesting__imgNature" />
             <div className="interesting__authorWrapp">
               <img src={man3} alt="author" className="interesting__imgAuthor" />
               <div className="interesting__authorTitle">
@@ -75,9 +74,13 @@ const Interesting = () => {
             <div className="interesting__recommendedItem">
               <p className="interesting__titleRecomended">Food</p>
               <div className="interesting__descr">
-                For Chicken-Fried Steak, Too Much Is Just Enough
+                For Chicken-Fried Steak, Too Much Is Just Enough &nbsp;
+                <img
+                  className="interesting__imgPlayMini"
+                  src={playMini}
+                  alt="play"
+                />
               </div>
-              <img src={playMini} alt="play" />
             </div>
             <div className="interesting__recommendedItem">
               <p
@@ -109,9 +112,9 @@ const Interesting = () => {
                 NFL
               </p>
               <div className="interesting__descr">
-                11 surprising stat rankings for active NFL players
+                11 surprising stat rankings for active NFL players &nbsp;
                 <img
-                  className="interesting__imgDescr"
+                  className="interesting__imgPlayMini"
                   src={playMini}
                   alt="play"
                 />

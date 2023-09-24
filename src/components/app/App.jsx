@@ -4,6 +4,7 @@ import Interesting2 from "../interesting/Interesting2";
 import BigBloom from "../bigBloom/BigBloom";
 import Interesting3 from "../interesting/Interesting3";
 import Hot from "../hot/Hot";
+import Footer from "../footer/Footer";
 import "./app.scss";
 
 const app = () => {
@@ -16,6 +17,7 @@ const app = () => {
       <BigBloom />
       <Interesting3 />
       <Hot />
+      <Footer />
     </main>
   );
 };
