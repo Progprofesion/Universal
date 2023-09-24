@@ -183,9 +183,9 @@ const Interesting2 = () => {
             </div>
           </div>
         </div>
-        <div className="interesting2__wrappColumns__readMore fs-14white">
+        <p className="interesting2__wrappColumns__readMore fs-14white">
           Read more
-        </div>
+        </p>
       </div>
     </section>
   );

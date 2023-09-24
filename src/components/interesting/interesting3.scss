@@ -1,0 +1,63 @@
+.interesting3 {
+  display: flex;
+  border-radius: 15px;
+  &__wrapp {
+    position: relative;
+    max-width: 848px;
+    min-height: 245px;
+    background-color: white;
+    padding: 25px;
+    margin-right: 29px;
+  }
+  &__item {
+    display: flex;
+  }
+  &__wrappText {
+    margin-left: 25px;
+  }
+  &__title {
+    color: #4592ff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    margin-top: 15px;
+    color: #262d33;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  &__descr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #4b5157;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__wrappData {
+    display: flex;
+    color: #939699;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  &__imgMessage {
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  &__imgHeart {
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  &__imgBookmark {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+}

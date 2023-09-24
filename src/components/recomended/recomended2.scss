@@ -1,0 +1,30 @@
+.recomended2 {
+  min-width: 263px;
+  background: white;
+  border-radius: 15px;
+  &__title {
+    padding: 20px 25px 19px 25px;
+    height: 59px;
+    border-bottom: 1px solid #d9dadb;
+    color: #262d33;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &__wrapp {
+    padding: 0 25px 0;
+  }
+  &__item {
+    padding: 17px 0;
+    display: flex;
+    border-bottom: 1px solid #d9dadb;
+  }
+  &__wrappText {
+    margin-left: 10px;
+    &__title {
+      margin-bottom: 5px;
+    }
+  }
+}
