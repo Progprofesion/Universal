@@ -1,3 +1,4 @@
+import Form from "../form/Form";
 import logo from "../../assets/icon/logo.svg";
 import facebook from "../../assets/icon/facebook.svg";
 import twitter from "../../assets/icon/twitter.svg";
@@ -5,7 +6,7 @@ import youtube from "../../assets/icon/youtube.svg";
 import instagram from "../../assets/icon/instagram.svg";
 import "./footer.scss";
 
-const Footer = () => {
+const Footer = ({ setModalActive }) => {
   return (
     <footer className="footer">
       <div className="container">
@@ -97,12 +98,13 @@ const Footer = () => {
         <div className="footer__contacts">
           <div className="footer__contacts__wrappInfo">
             <img src={logo} alt="logo" className="footer__contacts__imgLogo" />
-            <a
-              href="@"
+            <button
+              onClick={() => setModalActive(true)}
               className="footer__contacts__title  fs-14blackUpLetSpacing"
             >
               Contact Us
-            </a>
+            </button>
+
             <a
               href="@"
               className="footer__contacts__title fs-14blackUpLetSpacing"
