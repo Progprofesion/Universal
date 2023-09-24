@@ -1,6 +1,7 @@
 import Header from "../header/Header";
 import Interesting from "../interesting/Interesting";
 import Interesting2 from "../interesting/Interesting2";
+import BigBloom from "../bigBloom/BigBloom";
 import "./app.scss";
 
 const app = () => {
@@ -10,6 +11,7 @@ const app = () => {
       <Header />
       <Interesting />
       <Interesting2 />
+      <BigBloom />
     </main>
   );
 };

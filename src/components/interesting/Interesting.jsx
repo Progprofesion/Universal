@@ -1,8 +1,8 @@
+import ButtonReadMore from "../buttons/ButtonReadMore";
 import butterfly from "../../assets/img/butterfly.png";
 import guitar from "../../assets/img/guitar.png";
 import man2 from "../../assets/img/man2.png";
 import image176 from "../../assets/img/image176.png";
-import arrow from "../../assets/icon/arrow.svg";
 import play from "../../assets/icon/play.svg";
 import playMini from "../../assets/icon/playMini.svg";
 import nature from "../../assets/img/nature.png";
@@ -55,9 +55,7 @@ const Interesting = () => {
               In Southeast England, White Cliffs and Fish
             </h3>
             <div className="interesting__wrappButton">
-              <button className="interesting__readMore">
-                <p>Read more</p> <img src={arrow} alt="arrow" />
-              </button>
+              <ButtonReadMore />
               <button className="interesting__play">
                 <img src={play} alt="paly" />
               </button>

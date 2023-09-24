@@ -1,0 +1,13 @@
+.buttonReadMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 138px;
+  height: 40px;
+  border-radius: 20px;
+  background: var(--blue-blue-75, #4592ff);
+  color: #fff;
+  :nth-child(1) {
+    margin-right: 5px;
+  }
+}
