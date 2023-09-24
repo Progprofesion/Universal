@@ -12,7 +12,7 @@ const Recomended2 = () => {
       <div className="recomended2__title">
         <h4>Recommended for you</h4>
       </div>
-      <div className="recomended2 __wrappItem">
+      <div className="recomended2__wrappItem">
         <div className="recomended2__wrapp">
           <div className="recomended2__item">
             <img
@@ -31,7 +31,7 @@ const Recomended2 = () => {
           </div>
         </div>
       </div>
-      <div className="recomended2 __wrappItem">
+      <div className="recomended2__wrappItem">
         <div className="recomended2__wrapp">
           <div className="recomended2__item">
             <img
@@ -50,7 +50,7 @@ const Recomended2 = () => {
           </div>
         </div>
       </div>
-      <div className="recomended2 __wrappItem">
+      <div className="recomended2__wrappItem">
         <div className="recomended2__wrapp">
           <div className="recomended2__item">
             <img
@@ -69,7 +69,7 @@ const Recomended2 = () => {
           </div>
         </div>
       </div>
-      <div className="recomended2 __wrappItem">
+      <div className="recomended2__wrappItem">
         <div className="recomended2__wrapp">
           <div className="recomended2__item">
             <img
@@ -88,7 +88,7 @@ const Recomended2 = () => {
           </div>
         </div>
       </div>
-      <div className="recomended2 __wrappItem">
+      <div className="recomended2__wrappItem">
         <div className="recomended2__wrapp">
           <div className="recomended2__item">
             <img
@@ -107,7 +107,7 @@ const Recomended2 = () => {
           </div>
         </div>
       </div>
-      <div className="recomended2 __wrappItem">
+      <div className="recomended2__wrappItem">
         <div className="recomended2__wrapp">
           <div className="recomended2__item">
             <img
@@ -126,9 +126,9 @@ const Recomended2 = () => {
           </div>
         </div>
       </div>
-      <div className="recomended2 __wrappItem">
+      <div className="recomended2__wrappItem">
         <div className="recomended2__wrapp">
-          <div className="recomended2__item">
+          <div style={{ border: "none" }} className="recomended2__item">
             <img
               src={recomendedImg7}
               alt="preview"
@@ -145,6 +145,7 @@ const Recomended2 = () => {
           </div>
         </div>
       </div>
+      <p className="recomended2__readMore fs-14">Read more</p>
     </section>
   );
 };

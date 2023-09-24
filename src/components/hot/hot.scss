@@ -1,0 +1,118 @@
+.hot {
+  display: flex;
+  margin-top: 60px;
+  padding: 60px 113px;
+  background-color: #262d33;
+  &__hot {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 25px;
+    background: #ff4f52;
+    border-radius: 3px;
+    color: white;
+  }
+  &__authorImg {
+    margin-top: 50px;
+  }
+  &__author {
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  &__wrappWinner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../../assets//img//hotImg1.png");
+    padding: 0 18px 0 18px;
+    max-width: 555px;
+    min-height: 570px;
+    border-radius: 15px;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    width: 185px;
+    min-height: 40px;
+    border-radius: 20px;
+    background: #4592ff;
+    color: #c5e4fc;
+  }
+  &__imgButton {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  &__titleButton {
+    margin-right: 5px;
+  }
+  &__imgPagination {
+    margin-top: 105px;
+  }
+  &__wrappHot {
+    margin-left: 30px;
+    max-width: 550px;
+  }
+  &__careers {
+    position: relative;
+    background-color: #b4d1e0;
+    border-radius: 15px;
+    padding: 35px 0 50px 35px;
+    width: 550px;
+    &__title {
+      color: #6e99ae;
+      font-family: Lato;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px; /* 125% */
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    &__subtitle {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      max-width: 243px;
+      color: #262d33;
+      font-family: Roboto Slab;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    &__descr {
+      margin-bottom: 25px;
+      max-width: 210px;
+    }
+    &__img {
+      position: absolute;
+      right: 30px;
+      bottom: 0px;
+    }
+  }
+  &__wrappInteresting {
+    display: flex;
+    margin-top: 30px;
+    :first-child {
+      margin-right: 30px;
+    }
+  }
+  &__interesting {
+    padding: 25px 25px 30px 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    &__descr {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+  }
+}

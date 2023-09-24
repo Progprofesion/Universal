@@ -1,5 +1,6 @@
 .recomended2 {
   min-width: 263px;
+  height: 100%;
   background: white;
   border-radius: 15px;
   &__title {
@@ -26,5 +27,12 @@
     &__title {
       margin-bottom: 5px;
     }
+  }
+  &__readMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45px;
+    border-top: 1px solid #d9dadb;
   }
 }

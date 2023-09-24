@@ -3,6 +3,7 @@ import Interesting from "../interesting/Interesting";
 import Interesting2 from "../interesting/Interesting2";
 import BigBloom from "../bigBloom/BigBloom";
 import Interesting3 from "../interesting/Interesting3";
+import Hot from "../hot/Hot";
 import "./app.scss";
 
 const app = () => {
@@ -14,6 +15,7 @@ const app = () => {
       <Interesting2 />
       <BigBloom />
       <Interesting3 />
+      <Hot />
     </main>
   );
 };
