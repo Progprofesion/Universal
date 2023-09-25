@@ -53,7 +53,9 @@ const Interesting3 = () => {
         <div className="interesting3__item">
           <img src={interesting3Img2} alt="" className="interesting3__img" />
           <div className="interesting3__wrappText">
-            <h3 className="interesting3__title">Food</h3>
+            <h3 style={{ color: "#3BBDC4" }} className="interesting3__title">
+              Food
+            </h3>
             <h3 className="interesting3__subtitle">
               Three Courses, 20 Euros: The Affordable Dining Renaissance in
               Paris
@@ -88,7 +90,9 @@ const Interesting3 = () => {
         <div className="interesting3__item">
           <img src={interesting3Img3} alt="" className="interesting3__img" />
           <div className="interesting3__wrappText">
-            <h3 className="interesting3__title">Science</h3>
+            <h3 style={{ color: "#FF4F52" }} className="interesting3__title">
+              Science
+            </h3>
             <h3 className="interesting3__subtitle">
               Watch the High-Flying Physics of a Plant’s Exploding Fruits
             </h3>
@@ -122,7 +126,9 @@ const Interesting3 = () => {
         <div className="interesting3__item">
           <img src={interesting3Img4} alt="" className="interesting3__img" />
           <div className="interesting3__wrappText">
-            <h3 className="interesting3__title">Health</h3>
+            <h3 sthle={{ color: "#3BBDC4" }} className="interesting3__title">
+              Health
+            </h3>
             <h3 className="interesting3__subtitle">
               How the Shape of Your Ears Affects What You Hear
             </h3>
@@ -156,7 +162,9 @@ const Interesting3 = () => {
         <div className="interesting3__item">
           <img src={interesting3Img5} alt="" className="interesting3__img" />
           <div className="interesting3__wrappText">
-            <h3 className="interesting3__title">Science</h3>
+            <h3 style={{ color: "#FF4F52" }} className="interesting3__title">
+              Science
+            </h3>
             <h3 className="interesting3__subtitle">
               Forests Protect the Climate. A Future With More Storms Would Mean
               Trouble.
@@ -191,7 +199,9 @@ const Interesting3 = () => {
         <div className="interesting3__item">
           <img src={interesting3Img6} alt="" className="interesting3__img" />
           <div className="interesting3__wrappText">
-            <h3 className="interesting3__title">Art & Design</h3>
+            <h3 style={{ color: "#AC8EE3" }} className="interesting3__title">
+              Art & Design
+            </h3>
             <h3 className="interesting3__subtitle">
               New Contemporary Institute Reverberates in Richmond’s Historic
               Landscape

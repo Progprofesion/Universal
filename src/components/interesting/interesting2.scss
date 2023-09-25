@@ -13,6 +13,10 @@
       border-bottom: 1px solid #b4d1e0;
       padding: 20px 25px;
     }
+    &__subtitle {
+      position: relative;
+      z-index: 1;
+    }
     &__columns {
       padding: 0 25px 25px 25px;
       max-height: 664px;
@@ -21,6 +25,7 @@
       }
     }
     &__column {
+      position: relative;
       padding-top: 45px;
       border-bottom: 1px solid #b4d1e0;
       min-height: 219px;
@@ -45,6 +50,18 @@
       text-align: center;
       height: 45px;
       border-top: 1px solid #b4d1e0;
+      color: #fff;
+      text-align: center;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    &__imgQuote {
+      position: absolute;
+      z-index: 0;
+      top: 35px;
+      left: -10px;
     }
   }
   &__grid {

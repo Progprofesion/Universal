@@ -16,6 +16,7 @@
   }
   &__wrapp {
     padding: 0 25px 0;
+    position: relative;
   }
   &__item {
     padding: 17px 0;
@@ -32,7 +33,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
     min-height: 45px;
     border-top: 1px solid #d9dadb;
+  }
+  &__nums {
+    position: absolute;
+    top: 20px;
+    right: 25px;
   }
 }

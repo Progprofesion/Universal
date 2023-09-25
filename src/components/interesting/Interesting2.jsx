@@ -7,6 +7,7 @@ import heart from "../../assets/icon/heart.svg";
 import authorColums1 from "../../assets/icon/authorColumns1.svg";
 import authorColums2 from "../../assets/icon/authorColumns2.svg";
 import authorColums3 from "../../assets/icon/authorColumns3.svg";
+import quote from "../../assets/icon/quote.svg";
 
 import "./interesting2.scss";
 
@@ -40,7 +41,7 @@ const Interesting2 = () => {
               alt="message"
               className="interesting2__item1__iconMessage"
             />
-            <p className="interesting2__item1__messageCount">342</p>
+            <p className="interesting2__item1__messageCount fs-12">342</p>
           </div>
         </div>
         <div className="interesting2__item3">
@@ -127,6 +128,11 @@ const Interesting2 = () => {
         </div>
         <div className="interesting2__wrappColumns__columns">
           <div className="interesting2__wrappColumns__column">
+            <img
+              src={quote}
+              alt="quote"
+              className="interesting2__wrappColumns__imgQuote"
+            />
             <div className="interesting2__wrappColumns__subtitle fs-20White">
               Architecture is the thoughtful making of space
             </div>
@@ -145,6 +151,11 @@ const Interesting2 = () => {
             </div>
           </div>
           <div className="interesting2__wrappColumns__column">
+            <img
+              src={quote}
+              alt="quote"
+              className="interesting2__wrappColumns__imgQuote"
+            />
             <div className="interesting2__wrappColumns__subtitle fs-20White">
               The details are not the details. They make the design.
             </div>
@@ -165,6 +176,11 @@ const Interesting2 = () => {
             </div>
           </div>
           <div className="interesting2__wrappColumns__column">
+            <img
+              src={quote}
+              alt="quote"
+              className="interesting2__wrappColumns__imgQuote"
+            />
             <div className="interesting2__wrappColumns__subtitle fs-20White">
               Live life to the fullest, and focus on the positive
             </div>
@@ -183,9 +199,7 @@ const Interesting2 = () => {
             </div>
           </div>
         </div>
-        <p className="interesting2__wrappColumns__readMore fs-14white">
-          Read more
-        </p>
+        <p className="interesting2__wrappColumns__readMore">Read more</p>
       </div>
     </section>
   );
