@@ -39,27 +39,31 @@ ____________________
         type="text"
         placeholder="Имя"
       />
-      {errors.login ? (
-        <p className="form__form-errorMessage">{errors.login.message}</p>
+      {errors.name ? (
+        <p className="form__nameErrorMessage">{errors.name.message}</p>
       ) : null}
       Почта
       <input
         className="form__input"
         {...register("email", {
           required: "Поле обязательно к заполнению",
+          pattern: {
+            value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+            message: "Неправильный адрес почты",
+          },
         })}
         type="text"
         placeholder="Почта"
       />
-      {errors.password ? (
-        <p className="form__errorMessage">{errors.password.message}</p>
+      {errors.email ? (
+        <p className="form__emailErrorMessage">{errors.email.message}</p>
       ) : null}
       <button
         onClick={(e) => handleSubmit(e)}
         className="form__submit"
         type="submit"
       >
-        Войти
+        Отправить
       </button>
       <p>{errorAuth ? "Что-то пошло не так" : null}</p>
     </form>

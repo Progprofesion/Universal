@@ -16,10 +16,20 @@
     letter-spacing: 0.2px;
   }
   &__input {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid gray;
     font-size: 16px;
+  }
+  &__nameErrorMessage {
+    position: absolute;
+    top: 71px;
+    color: brown;
+  }
+  &__emailErrorMessage {
+    position: absolute;
+    bottom: 77px;
+    color: brown;
   }
 }
 
