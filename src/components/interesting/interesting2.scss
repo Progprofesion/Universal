@@ -90,6 +90,14 @@
       font-weight: 700;
       line-height: 30px;
     }
+    &__title {
+      color: #6e99ae;
+      font-family: Lato;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
     &__carImg {
       position: absolute;
       right: 0;
