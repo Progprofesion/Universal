@@ -1,6 +1,6 @@
 # React app    
 
-## Test-task
+## Лендинг
 
 ### Installing
 
